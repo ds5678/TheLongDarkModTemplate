@@ -14,12 +14,13 @@ This is a coding mod template for The Long Dark by Hinterland Games.
 * Edit `AssemblyInfo.cs` with your mod details.
 * In the `Build` menu, click on `Build Solution`.
 * If compilation succeeds, your mod will be in a sub folder, typically `bin/Debug/net6.0/` or `bin/Release/net6.0`.
-* Copy the compiled mod to your `Mods` folder and run the game. If you have duplicate mods, MelonLoader will error.
+* Copy the compiled mod to your `Mods` folder and run the game.
 
 ## Additional Notes
 
 * Release builds run faster than Debug builds, but Debug builds show better stack traces when an error occurs.
 * If at any point, Visual Studio asks where to save the solution, save it next to the `csproj` file.
+* If you have duplicate mods in your `Mods` folder, MelonLoader will error.
 
 ## Disclaimer
 
