@@ -30,7 +30,7 @@
     <PropertyGroup>
         <MelonLoaderPath>$(TheLongDarkPath)/MelonLoader/net6</MelonLoaderPath>
         <ManagedPath>$(TheLongDarkPath)/MelonLoader/Managed</ManagedPath>
-        <Il2CppPath>$(TheLongDarkPath)/MelonLoader/net6</Il2CppPath>
+        <Il2CppPath>$(TheLongDarkPath)/MelonLoader/Il2CppAssemblies</Il2CppPath>
         <ModsPath>$(TheLongDarkPath)/Mods</ModsPath>
         <AssemblySearchPaths>$(AssemblySearchPaths);$(MelonLoaderPath);$(ManagedPath);$(Il2CppPath);$(ModsPath);</AssemblySearchPaths>
     </PropertyGroup>

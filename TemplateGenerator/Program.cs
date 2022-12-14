@@ -88,7 +88,7 @@ internal class Program
 			{
 				writer.WriteLine("<MelonLoaderPath>$(TheLongDarkPath)/MelonLoader/net6</MelonLoaderPath>");
 				writer.WriteLine("<ManagedPath>$(TheLongDarkPath)/MelonLoader/Managed</ManagedPath>");
-				writer.WriteLine("<Il2CppPath>$(TheLongDarkPath)/MelonLoader/net6</Il2CppPath>");
+				writer.WriteLine("<Il2CppPath>$(TheLongDarkPath)/MelonLoader/Il2CppAssemblies</Il2CppPath>");
 				writer.WriteLine("<ModsPath>$(TheLongDarkPath)/Mods</ModsPath>");
 				writer.WriteLine("<AssemblySearchPaths>$(AssemblySearchPaths);$(MelonLoaderPath);$(ManagedPath);$(Il2CppPath);$(ModsPath);</AssemblySearchPaths>");
 			}
