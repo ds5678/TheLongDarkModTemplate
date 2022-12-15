@@ -99,6 +99,7 @@ internal class Program
 				writer.WriteLine("<Reference>");
 				writer.Indent++;
 				writer.WriteLine("<Private>False</Private>");
+				writer.WriteLine("<SpecificVersion>False</SpecificVersion>");
 				writer.Indent--;
 				writer.WriteLine("</Reference>");
 			}
