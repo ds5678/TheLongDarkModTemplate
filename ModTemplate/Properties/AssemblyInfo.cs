@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 //The mod version need specified in three places.
 [assembly: AssemblyVersion("ModVersion")]
 [assembly: AssemblyFileVersion("ModVersion")]
-[assembly: MelonInfo(typeof(ModNamespace.ModClassInheritingFromMelonMod), "ModName", "ModVersion", "ModAuthor", null)]
+[assembly: MelonInfo(typeof(ModNamespace.ModClassInheritingFromMelonMod), "ModName", "ModVersion", "ModAuthor")]
 
 //This tells MelonLoader that the mod is only for The Long Dark.
 [assembly: MelonGame("Hinterland", "TheLongDark")]
