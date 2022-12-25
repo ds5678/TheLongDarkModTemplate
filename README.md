@@ -5,7 +5,6 @@ This is a coding mod template for The Long Dark by Hinterland Games.
 ## Instructions
 
 * Download [this folder](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fds5678%2FTheLongDarkModTemplate%2Ftree%2Fmain%2FModTemplate).
-* Open `ModTemplate.csproj` in NotePad and change the path for The Long Dark.
 * Rename `ModTemplate.csproj` to the name of the mod.
 * Install [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
 * Install [Visual Studio](https://visualstudio.microsoft.com/vs/community/).
