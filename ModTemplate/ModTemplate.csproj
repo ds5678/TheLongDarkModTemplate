@@ -17,15 +17,18 @@
 		<!--This tells the compiler to use assembly attributes instead of generating its own.-->
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 
-		<!--PDB files are mostly useless for modding since they can't be loaded.-->
-		<DebugType>none</DebugType>
+		<!--PDB files give line numbers in stack traces (errors). This is useful for debugging. There are 3 options:-->
+		<!--full has a pdb file created beside the dll.-->
+		<!--embedded has the pdb data embedded within the dll. This is useful because bug reports will then have line numbers.-->
+		<!--none skips creation of pdb data.-->
+		<DebugType>embedded</DebugType>
 	</PropertyGroup>
 
 	<!--This is the of packages that the mod references.-->
 	<ItemGroup>
 		<!--This package contains almost everything a person could possibly need to reference while modding.-->
 		<PackageReference Include="ds5678.Modding.TLD.Il2CppAssemblies.Windows" Version="2.6.0" />
-		<!--The package version here may be outdated and need to be updated. Visual Studio can update package versions automatically.-->
-		<!--If the mod references any other mods (such as ModSettings), their NuGet package will also need to be listed here.-->
+		<!--The package version here in this template may be outdated and need to be updated. Visual Studio can update package versions automatically.-->
+		<!--If the mod references any other mods (such as ModSettings), that NuGet package will also need to be listed here.-->
 	</ItemGroup>
 </Project>
